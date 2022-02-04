@@ -8,11 +8,13 @@ import javax.validation.constraints.NotBlank;
 
 import org.hibernate.validator.constraints.Length;
 
+import lombok.Builder;
 import lombok.Data;
 
 
 @Entity
 @Data
+@Builder
 public class Department 
 {
     @Id
